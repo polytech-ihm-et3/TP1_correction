@@ -92,6 +92,7 @@ public class TemperatureConverter extends Application
 		*/
 		textFormatterC = new TextFormatter<>(character -> 
 		{
+			System.out.println(character);
 			if (character.isContentChange())
 			{
 				if (character.getControlNewText().length() == 0) 
