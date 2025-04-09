@@ -1,0 +1,10 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Maven create target",
+            "type": "shell",
+            "command": "mvn clean compile",
+        }
+    ]
+}
