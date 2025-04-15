@@ -172,7 +172,7 @@ public class TemperatureConverter extends Application {
 
 					try {
 						// On transforme ce texte en float
-						float valC = new Float(value);
+						float valC = Float.parseFloat(value);
 						// On calcule l'équivalence de cette valeur en Fahrenheit
 						float valF = valC * 1.8f + 32;
 						// On affiche la valeur en Fahrenheit dans textFieldF
