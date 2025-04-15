@@ -8,7 +8,7 @@
             "type": "java",
             "name": "Launch",
             "request": "launch",
-            "mainClass": "app/app.TemperatureConverter",
+            "mainClass": "application/application.TemperatureConverter",
             "projectName": "temperature_converter",
             "preLaunchTask": "Maven create target"
         }
